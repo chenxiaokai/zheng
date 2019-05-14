@@ -128,6 +128,7 @@ public class AESUtil {
     }
 
     public static void main(String[] args) {
+        //server端 mysql密码123456, redis密码 ""  空
         String[] keys = {
                 "", "123456"
         };
