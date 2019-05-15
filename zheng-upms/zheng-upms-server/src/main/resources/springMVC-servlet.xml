@@ -8,6 +8,9 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- 根目录'/'对应页面 -->
+    <!--
+    <mvc:view-controller>标签的作用 https://blog.csdn.net/abc997995674/article/details/80432632
+    -->
     <mvc:view-controller path="/" view-name="/index.jsp"/>
 
     <!-- 拦截器 -->

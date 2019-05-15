@@ -4,7 +4,10 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
 
-    <!-- 强制进行转码 -->
+    <!--
+        强制进行转码
+        https://blog.csdn.net/xiaokang123456kao/article/details/72885171   <dispatcher>标签的作用
+     -->
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
