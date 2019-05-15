@@ -9,7 +9,7 @@
 
     <dubbo:application name="zheng-api-rpc-service"/>
 
-    <dubbo:registry address="zookeeper://zkserver:2181"/>
+    <dubbo:registry address="zookeeper://106.12.92.29:2181"/>
 
     <dubbo:protocol name="dubbo" port="20880"/>
 
